@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include horyaal *.css
+recursive-include horyaal *.csv
+recursive-include horyaal *.html
+recursive-include horyaal *.ico
+recursive-include horyaal *.js
+recursive-include horyaal *.json
+recursive-include horyaal *.md
+recursive-include horyaal *.png
+recursive-include horyaal *.py
+recursive-include horyaal *.svg
+recursive-include horyaal *.txt
+recursive-exclude horyaal *.pyc
